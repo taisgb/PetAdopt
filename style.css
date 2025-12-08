@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vw;
+  padding: 1rem;
+}
+
+.banner {
+  height: 60vh;
+  align-items: center;
+  border: #F97415 2px solid;
+}
+.banner article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+}
+.banner article img {
+  width: 25rem;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.btn-laranja {
+  background-color: #F97415;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 1rem;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+}
+.galeria .div-pet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: justify;
+  width: 20%;
+}
+.galeria img {
+  width: 40%;
+  height: 15vh;
+  border-radius: 100%;
+}
+.galeria .nomePet {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #F97415;
+}/*# sourceMappingURL=style.css.map */
