@@ -46,6 +46,9 @@ header {
 .galeria {
   display: flex;
   flex-direction: row;
+  border: #F97415 2px solid;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .galeria .div-pet {
   display: flex;
@@ -65,4 +68,7 @@ header {
   font-weight: bold;
   font-size: 1.2rem;
   color: #F97415;
+}
+.galeria .nomePet, .galeria .descricaoPet {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
